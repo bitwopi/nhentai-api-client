@@ -1,0 +1,5 @@
+package: api          # имя пакета
+output: client.gen.go # куда писать код
+generate:
+  models: true        # структуры
+  client: true        # HTTP-клиент
